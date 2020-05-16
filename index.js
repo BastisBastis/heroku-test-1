@@ -1,4 +1,4 @@
-function (request, response) {
+
    // Send the HTTP header 
    // HTTP Status: 200 : OK
    // Content Type: text/plain
@@ -6,4 +6,4 @@ function (request, response) {
    
    // Send the response body as "Hello World"
    response.end('Hello World\n');
-}
+
